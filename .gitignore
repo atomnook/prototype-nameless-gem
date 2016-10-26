@@ -1,4 +1,5 @@
 /.idea/
 /core/target/
+/domain/target/
 /project/target/
 /target/
