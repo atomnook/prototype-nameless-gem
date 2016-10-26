@@ -1,5 +1,8 @@
 language: scala
 
+addons:
+  mariadb: '10.1'
+
 jdk:
   - oraclejdk8
 
