@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package model;
+
+import "level.proto";
+
+message PrerequisiteSkill {
+  string id = 1;
+  Level level = 2;
+}
+
+message Skill {
+  string id = 1;
+  string name = 2;
+  repeated PrerequisiteSkill prerequisite_id = 3;
+}
