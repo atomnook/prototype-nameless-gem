@@ -22,4 +22,4 @@ script:
   - docker exec redis6381 redis-cli -p 6381 cluster addslots {11001..16383}
   - docker exec redis6380 redis-cli -p 6380 cluster meet 127.0.0.1 6379
   - docker exec redis6381 redis-cli -p 6381 cluster meet 127.0.0.1 6379
-  - sbt test
+  - sbt -Dconfig.file=conf/travis.conf test
