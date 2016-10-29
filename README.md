@@ -1,6 +1,6 @@
-# nameless-gem
+# prototype-nameless-gem
 
-[![Build Status](https://travis-ci.org/atomnook/nameless-gem.svg?branch=master)](https://travis-ci.org/atomnook/nameless-gem)
+[![Build Status](https://travis-ci.org/atomnook/prototype-nameless-gem.svg?branch=master)](https://travis-ci.org/atomnook/prototype-nameless-gem)
 
 ## Local
 
