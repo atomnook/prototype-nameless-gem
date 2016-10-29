@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package model;
+
+import "class.proto";
+import "race.proto";
+
+message Chara {
+  string name = 1;
+  Race race = 2;
+  repeated Class class = 3;
+}

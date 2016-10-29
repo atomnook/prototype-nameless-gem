@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package model;
+
+import "attributes.proto";
+
+message Class {
+  string name = 1;
+  Attributes increasing_attributes = 2;
+  repeated string skill_tree = 4;
+}
