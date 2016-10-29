@@ -1,5 +1,8 @@
 /.idea/
+/.vagrant/
 /core/target/
 /domain/target/
+/mysql/target/
 /project/target/
+/project/project/target/
 /target/
